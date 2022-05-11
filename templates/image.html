@@ -1,0 +1,13 @@
+{% if filename %}
+<link rel="stylesheet" href="static/css/image_style.css">
+<body>
+<div class="rows">
+    <h2 class=try_again><a href="/">Попробовать ещё!</a></h2>
+    <div class='myimage'>
+        <img class='immmage' src="{{ url_for('send_file', filename=filename) }}">
+    </div>
+    {% else %}
+    <h2 class=try_again><a href="/">Попробовать ещё!</a></h2>
+    {% endif %}
+</div>
+</body>
