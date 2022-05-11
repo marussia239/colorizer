@@ -2,8 +2,6 @@
 
 Работает с помощью нейросети, описанной тут: https://github.com/jantic/DeOldify
 
-Сама модель находится в папке models и скачана отсюда: https://data.deepai.org/deoldify/ColorizeArtistic_gen.pth
-
 ## Как запустить?
 
 Создание виртуального окружения:
@@ -18,6 +16,8 @@ python -m pip install --upgrade pip
 # Установка зависимостей
 python -m pip install -r requirements.txt
 ```
+
+Скачать модель отсюда: https://data.deepai.org/deoldify/ColorizeArtistic_gen.pth и поместить ее в папку models.
 
 ```bash
 # Запуск модели
